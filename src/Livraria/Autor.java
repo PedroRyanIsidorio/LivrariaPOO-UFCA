@@ -2,12 +2,38 @@ package Livraria;
 
 public class Autor {
 
-    String nome;
-    String email;
-    String cpf;
+    private String nome;
+    private String email;
+    private String cpf;
+
+
 
     public Autor(){
         System.out.println("Autor criado com sucesso");
+    }
+
+    public void setCpf(String cpf){
+        this.cpf = cpf;
+    }
+
+    public String getCpf(){
+        return this.cpf;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public String getNome(){
+        return this.nome;
     }
 
     void mostrasDetalhes(){

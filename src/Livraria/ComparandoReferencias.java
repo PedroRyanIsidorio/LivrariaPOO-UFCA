@@ -5,19 +5,19 @@ public class ComparandoReferencias {
     public static void main(String[] args){
 
         Autor autor1 = new Autor();
-        autor1.nome = "Luana batista";
-        autor1.email = "Luana@gmail.com";
-        autor1.cpf = "000.000.000-01";
+        autor1.setNome("Luana");
+        autor1.setEmail("Luana@gmail.com");
+        autor1.setCpf("000.000.000-01");
 
         Autor autor2 = new Autor();
-        autor2.nome = "Luana batista";
-        autor2.email = "Luana@gmail.com";
-        autor2.cpf = "000.000.000-01";
+        autor2.setNome("Luana");
+        autor2.setEmail("Luana@gmail.com");
+        autor2.setCpf("000.000.000-01");
 
         Livro livroX = new Livro();
-        livroX.nome = "nomeLivro";
-        livroX.autor = autor1;
-        livroX.autor.nome = "test";
+        //livroX.nome = "nomeLivro";
+        livroX.setAutor(autor1);
+        livroX.getAutores().setNome("test");
 
         livroX.mostrarDetalhes();
 

@@ -1,7 +1,6 @@
 package Livraria;
 
-public class AplicarDescontoLivro {
-
+public class RegrasDeDesconto {
     public static void main(String[] args) {
 
         Livro livroX = new Livro();
@@ -16,3 +15,4 @@ public class AplicarDescontoLivro {
         System.out.println(livroX.getValor());
     }
 }
+
