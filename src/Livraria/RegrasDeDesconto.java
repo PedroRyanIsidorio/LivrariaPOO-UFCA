@@ -3,7 +3,7 @@ package Livraria;
 public class RegrasDeDesconto {
     public static void main(String[] args) {
 
-        Livro livroX = new Livro();
+        Livro livroX = new Livro(new Autor());
         livroX.setValor(100);
 
         System.out.println(livroX.getValor());

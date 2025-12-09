@@ -11,7 +11,12 @@ public class Livro {
     private Autor autor;
     //double desconto;
 
-    public Livro(){
+    public Livro(Autor autor) {
+        this.isbn = "000-00-0000-00-0";
+        this.autor = autor;
+    }
+
+    public Livro(Autor autor, String nome, String descricao, double valor, int numeroPaginas, String isbn) {
         this.nome = nome;
         this.descricao = descricao;
         this.valor = valor;

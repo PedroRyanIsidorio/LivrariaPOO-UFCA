@@ -6,10 +6,14 @@ public class Autor {
     private String email;
     private String cpf;
 
-
-
     public Autor(){
         System.out.println("Autor criado com sucesso");
+    }
+
+    public Autor(String nome, String email, String cpf){
+        this.nome = nome;
+        this.email = email;
+        this.cpf = cpf;
     }
 
     public void setCpf(String cpf){

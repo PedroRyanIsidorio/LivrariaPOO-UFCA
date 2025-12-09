@@ -14,7 +14,7 @@ public class ComparandoReferencias {
         autor2.setEmail("Luana@gmail.com");
         autor2.setCpf("000.000.000-01");
 
-        Livro livroX = new Livro();
+        Livro livroX = new Livro(autor1);
         //livroX.nome = "nomeLivro";
         livroX.setAutor(autor1);
         livroX.getAutores().setNome("test");
