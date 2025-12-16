@@ -18,5 +18,5 @@ public class AplicarDescontoLivro {
             System.out.println("Desconto nao aplicado");
         }
         System.out.println(livroX.getValor());
-    }2
+    }
 }
